@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search Engine</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+      }
+      .container {
+        max-width: 800px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      h1 {
+        text-align: center;
+        margin-bottom: 30px;
+        color: #333;
+      }
+      .search-form {
+        text-align: center;
+      }
+      .search-input {
+        width: 60%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+        outline: none;
+      }
+      .search-btn {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+      .search-results {
+        margin-top: 30px;
+      }
+      .search-results li {
+        list-style-type: none;
+        padding: 10px;
+        background-color: #f9f9f9;
+        border-radius: 5px;
+        margin-bottom: 10px;
+      }
+      .search-results li a {
+        text-decoration: none;
+        color: #333;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Search Engine</h1>
+      <form class="search-form" action="#" method="GET">
+        <input
+          type="text"
+          class="search-input"
+          name="q"
+          placeholder="Enter your search term..."
+        />
+        <button type="submit" class="search-btn">Search</button>
+      </form>
+      <div class="search-results">
+        <ul>
+          <li>
+            <a href="#">Search Result 1</a>
+          </li>
+          <li>
+            <a href="#">Search Result 2</a>
+          </li>
+          <li>
+            <a href="#">Search Result 3</a>
+          </li>
+          <!-- Add more search results dynamically -->
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
